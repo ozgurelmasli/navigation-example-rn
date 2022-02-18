@@ -2,7 +2,7 @@ import React from "react";
 import {View , Text , StyleSheet } from 'react-native';
 
 
-const FiiltersScreen = props => {
+const FilterScreen = props => {
     return (
         <View style={styles.screen}>
             <Text>The categoris screen</Text>
@@ -19,4 +19,4 @@ const styles = StyleSheet.create({
     }
 })
 
-export default FiiltersScreen;
+export default FilterScreen;

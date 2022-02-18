@@ -4,7 +4,7 @@ import { enableScreens} from "react-native-screens";
 import * as Font from "expo-font";
 //import { AppLoading } from "app-loading";
 
-import MealsNavigator from "./navigation/MealsNavigator";
+import MainNavigator from "./navigation/MainNavigator";
 
 enableScreens()
 /*
@@ -34,8 +34,8 @@ export default function App() {
   }
   */
   return (
-    <MealsNavigator>
+    <MainNavigator>
       <Text>Open up App.js to start working on your app!</Text>
-    </MealsNavigator>
+    </MainNavigator>
   );
 }
